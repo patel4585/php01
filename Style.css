@@ -1,0 +1,277 @@
+/* 
+    Common CSS styles for all the files begins
+*/
+
+body{
+    background-color: #fff;
+    font-family: 'Times New Roman', 'Helvetica', 'Arial';
+}
+
+/* 
+    Common CSS styles for all the files ends
+*/
+
+
+/* 
+    CSS styles for Login and Signup pages begins
+*/
+
+#container{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    grid-template-rows: 150px auto 100px;
+    grid-gap: 5px;
+    min-height: 100vh;
+    width: 100vw;
+}
+
+#header-auth{
+    background-color: rgba(38, 129, 185, 0.79);
+    color: white;
+    width: 100%;
+    height: 100%;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+header h1
+{
+    font-size: 4em;
+    text-align: center;
+}
+
+#main-left{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#main-center{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#main-right{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+ 
+#footer-auth{
+    background-color: black;;
+    color: white;
+    width: 100%;
+    text-align: center;
+
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+#foot_note_button{
+    font-size: 15px;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 7px;
+    margin-right: 20px;
+}
+
+.auth-form{
+    margin-top: 60px;
+    border: solid rgb(151, 148, 148) 3px;
+    border-radius: 8px;
+    padding: 0px 20px 40px 20px;
+    width: 100%;
+}
+
+input{
+    float: right;
+    width: 60%;
+}
+
+input[type="submit"]{
+    width: 10%;
+}
+
+p.input-field{
+    margin-top: 30px;
+}
+
+.footer-text{
+    margin-top: 35px;
+    font-size: 20px;
+}
+
+.error_msg{
+    border: red 1px solid;
+    color: red;
+    padding: 2px;
+    float: right;
+    display:none;
+    margin: 0px 0px 0px 5px;
+}
+
+/* 
+    CSS styles for Login and Signup pages ends
+*/
+
+
+/*
+    CSS styles for Joke List page, Post Joke page, and Joke Detail Page starts
+*/
+
+#container-JL{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 160px auto 100px;
+    grid-gap: 5px;
+    min-height: 100vh;
+}
+
+#header-JL{
+    background-color: rgba(38, 129, 185, 0.79);
+    color: white;
+    width: 100%;
+    height: 100%;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+#main-left{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#main-center{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#main-right{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#fotter-JL{
+    background-color: black;;
+    color: white;
+    width: 100%;
+    text-align: center;
+
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.logout-JL{
+    font-size: 15px;
+    float: right;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 7px;
+    margin-right: 20px;
+}
+
+#user_name{
+    float: right;
+    font-size: 17px;
+}
+
+#Post-JL{
+    color: black;
+    border-color: black;
+}
+
+#search-JL{
+    float: left;
+    width: 80%;
+    padding: 5px;
+    overflow: hidden;
+}
+
+#go-JL{
+    padding: 5px;
+    margin-left: 5px;
+}
+
+.session-JL{
+    margin: 10px 0px;
+    border: 1px solid #dedede;
+    border-radius: 10px;
+    width: 100%;
+    color: #34495E;               
+    margin-left: 17px;
+    padding-left: 10px;
+}
+
+.joke_name{
+    text-decoration: none;
+}
+
+.input_PJ{
+    float:none;
+}
+
+#input_JD{
+    float:none;
+    width:auto;
+}
+
+.counter{
+    border: 1px solid rgb(41, 47, 221);
+    padding: 2px;
+    border-radius: 1px;
+    float: left;
+    display: none;
+}
+
+.buttons{
+    font-size: 16px;
+    border: 2px solid pink;
+    border-radius: 3px;
+    padding: 3px;
+    margin: 4px;
+    font-weight: 570;
+}
+
+#submit_JD{
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 2px;
+    padding: 2px;
+    margin: 3px;
+    float: left;
+    width: 7%;
+}
+
+.hidden_EM{
+    visibility: hidden;
+    border: 2px solid red;
+    padding: 2px;
+    margin: 2px;
+    font-weight: bold;
+}
+
+/*
+    CSS styles for Joke List page, Post Joke page, and Joke Detail page ends
+*/

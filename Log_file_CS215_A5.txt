@@ -1,0 +1,37 @@
+Name: Dev Yogeshkumar Patel
+Student number: 200468139
+Class number: CS215-398 (Fall 2022)
+
+URL of the web-site: 
+index page: http://www.webdev.cs.uregina.ca/~dpl190/index.html
+
+Assignment 5- Login Page: http://www.webdev.cs.uregina.ca/~dpl190/Class_A5/Login_Page.php
+		    - SignUp Page: http://www.webdev.cs.uregina.ca/~dpl190/Class_A5/SignUp_Page.php
+			- Joke List Page:
+			- Post Joke Page: 
+			- Joke Detail Page: 
+			- Style.css: http://www.webdev.cs.uregina.ca/~dpl190/Class_A5/Style.css
+
+			- js folder
+				- eventHandlers.js
+				- eventRegisterLogin.js
+				- eventRegisterSignup.js
+				- eventRegisterPostJokePage.js
+				- eventRegisterJokeDetailPage.js
+				- eventRegisterJokeDetailPage_2.js
+				- eventHandlers_JL.js
+
+
+Files that are submitted:
+	- db.php
+	- Login_Page.php (Login Page code.)
+	- SignUp_Page.php (Signup Page code.)
+	- Joke_List_Page.php (Joke List Page code.)
+	- Post_Joke_Page.php (Post Joke Page code.)
+	- Joke_Detail_Page.php (Joke Detail Page code.)
+	- Style.css (CSS stylesheet for all five pages.)
+	- js folder that contains all internal js files as described above
+	- ajax_backend_JD.php (ajax backend code file.)
+	- ajax_backend_JL.php (ajax backend code file.)
+	- ajax_backend_JL_2.php (ajax backend code file.)
+	- Log_file_CS215_A5 (This file itself.)
